@@ -18,7 +18,7 @@ export default function Features6cards({ modal, colorMode }) {
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "bg-bgSectionDark",
+    default: "bg-transparent",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -86,18 +86,18 @@ export default function Features6cards({ modal, colorMode }) {
               </MotionDivDownToUp>
               <MotionDivDownToUp>
                 <IconFeatureCard
-                  icon={content.texts.features.card3.icon}
-                  title={content.texts.features.card3.title}
-                  paragraph={content.texts.features.card3.subtitle}
+                  icon={content.texts.features.card5.icon}
+                  title={content.texts.features.card5.title}
+                  paragraph={content.texts.features.card5.subtitle}
                   colorMode={colorMode}
                 />
               </MotionDivDownToUp>
 
               <MotionDivDownToUp>
                 <IconFeatureCard
-                  icon={content.texts.features.card3.icon}
-                  title={content.texts.features.card3.title}
-                  paragraph={content.texts.features.card3.subtitle}
+                  icon={content.texts.features.card6.icon}
+                  title={content.texts.features.card6.title}
+                  paragraph={content.texts.features.card6.subtitle}
                   colorMode={colorMode}
                 />
               </MotionDivDownToUp>
