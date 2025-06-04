@@ -197,8 +197,9 @@ const content = {
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Direito Cível",
-        subtitle: "Defesa em causas civis e conflitos particulares.",
+        title: "Direito Trabalhista",
+        subtitle:
+          "Defesa estratégica em ações envolvendo relações de trabalho, rescisões, verbas e acordos.",
         description: (
           <div>
             A_Definir
@@ -233,8 +234,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "Direito Penal",
-        subtitle: "Atuação em processos criminais e defesas penais.",
+        title: "Execução Criminal",
+        subtitle:
+          "Atuação dedicada na fase de cumprimento de pena, buscando garantir direitos e benefícios legais.",
         description: (
           <div>
             A_Definir
@@ -269,8 +271,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Direito Administrativo",
-        subtitle: "Assessoria em questões públicas e administrativas.",
+        title: "Direito Previdenciário",
+        subtitle:
+          "Aposentadorias, pensões, auxílios e revisões de benefícios com foco na segurança do cliente.",
         description: (
           <div>
             A_Definir <br />
@@ -306,8 +309,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Jurídica",
-        subtitle: "Orientação legal preventiva para decisões seguras.",
+        title: "Direito Tributário",
+        subtitle:
+          "Planejamento e defesa contra cobranças indevidas, autos de infração e execução fiscal.",
         description: (
           <div>
             A_Definir
@@ -342,8 +346,9 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Direito Empresarial",
+        subtitle:
+          "Assessoria jurídica completa para empresas, desde a constituição até a solução de conflitos.",
         description: (
           <div>
             A_Definir
@@ -369,6 +374,42 @@ const content = {
             <circle cx="12" cy="12" r="10" />
             <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
             <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Família e Sucessões",
+        subtitle:
+          "Atuação sensível e eficaz em divórcios, guarda, inventários e partilhas.",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-users-icon lucide-users"
+          >
+            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+            <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+            <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+            <circle cx="9" cy="7" r="4" />
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
