@@ -37,10 +37,10 @@ import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
-import teamMemberImg1 from "../assets/imgs/team/team1.webp";
-import teamMemberImg2 from "../assets/imgs/team/team2.webp";
-import teamMemberImg3 from "../assets/imgs/team/team3.webp";
-import teamMemberImg4 from "../assets/imgs/team/team4.webp";
+import teamMemberImg1 from "../assets/imgs/team/team1.jpg";
+import teamMemberImg2 from "../assets/imgs/team/team2.jpg";
+import teamMemberImg3 from "../assets/imgs/team/team3.jpg";
+import teamMemberImg4 from "../assets/imgs/team/team4.jpg";
 
 import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
@@ -671,16 +671,17 @@ const content = {
       number3Description: "A_Definir",
     },
     team: {
-      title: "A_Definir",
-      subtitle: "A_Definir",
+      miniTag: "NOSSO TIME",
+      title: "Advogados que atuam com excelência",
+      subtitle: "Equipe experiente, pronta para te representar.",
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Edison Matos",
+            alt: "Dr. Jean Patrick Medeiros - OAB/SC 73.521",
           },
-          name: "Edison Matos",
-          role: "CEO & Diretor de Desenvolvimento",
+          name: "Dr. Jean Patrick Medeiros - OAB/SC 73.521",
+          role: "Sócio fundador e responsável administrativo.",
           socialMedia: {
             icon1: (
               <svg
@@ -743,10 +744,10 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Gabriel Adans",
+            alt: "Dr. Lucas Dias de Oliveira - OAB/MG 221.111",
           },
-          name: "Gabriel Adans",
-          role: "Marketing Outsourcing",
+          name: "Dr. Lucas Dias de Oliveira - OAB/MG 221.111",
+          role: "Demandas cíveis trabalhistas e tributárias.",
           socialMedia: {
             icon1: (
               <svg
@@ -809,10 +810,10 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Gabriel Souza",
+            alt: "Dra. Caroline Valenza - OAB/SC 65.690",
           },
-          name: "Gabriel Souza",
-          role: "Desenvolvedor Frontend",
+          name: "Dra. Caroline Valenza - OAB/SC 65.690",
+          role: "Direito criminal e execução criminal.",
           socialMedia: {
             icon1: (
               <svg
@@ -875,10 +876,10 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Luiz Felipe",
+            alt: "Tiago Henrique Ribeiro de Souza - OAB/MG 196.616",
           },
-          name: "Luiz Felipe",
-          role: "Designer Ourtsourcing",
+          name: "Tiago Henrique Ribeiro de Souza - OAB/MG 196.616",
+          role: "Especialista em Júri e Recursos Especiais",
           socialMedia: {
             icon1: (
               <svg
