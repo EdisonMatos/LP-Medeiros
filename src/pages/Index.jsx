@@ -11,7 +11,7 @@ import AboutInstagram from "../components/sections/AboutInstagram";
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappButton";
 import Maps from "../components/sections/Maps";
-import TeamCards from "../components/sections/TeamCards";
+import Team from "../components/sections/Team";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -38,6 +38,7 @@ export default function Index() {
         paragraphsModal={false}
       />
       <About modal={true} showGallery={false} colorMode={colorMode} />
+      <Team />
       <AboutInstagram
         colorMode={colorMode}
         instagram={true}
