@@ -43,6 +43,7 @@ export default function Index() {
         colorMode={colorMode}
         instagram={true}
         socialPrint={true}
+        facebook={true}
       />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
@@ -56,6 +57,7 @@ export default function Index() {
         emailSecundario={false}
         addresSecundario={false}
         instagram={true}
+        facebook={true}
       />
       <FloatingWhatsappButton />
       <BackToTopButton />

@@ -104,7 +104,7 @@ export const infos = {
   ),
   obs: <span className="italic">A Definir</span>,
   instagramProfile: "medeirosadvogadosbr", // Sem o @
-  facebookProfile: "A_Definir",
+  facebookProfile: "medeiros.advogados.2025",
   linkeDinProfile: "A_Definir",
   x: "A_Definir",
   whatsappDefaultMessage:
@@ -680,7 +680,11 @@ const content = {
             img: teamMemberImg1,
             alt: "Dr. Jean Patrick Medeiros - OAB/SC 73.521",
           },
-          name: "Dr. Jean Patrick Medeiros - OAB/SC 73.521",
+          name: (
+            <p>
+              Dr. Jean Patrick Medeiros <br />- OAB/SC 73.521
+            </p>
+          ),
           role: "Sócio fundador e responsável administrativo.",
           socialMedia: {
             icon1: (
@@ -746,7 +750,11 @@ const content = {
             img: teamMemberImg2,
             alt: "Dr. Lucas Dias de Oliveira - OAB/MG 221.111",
           },
-          name: "Dr. Lucas Dias de Oliveira - OAB/MG 221.111",
+          name: (
+            <p>
+              Dr. Lucas Dias de Oliveira <br />- OAB/MG 221.111
+            </p>
+          ),
           role: "Demandas cíveis trabalhistas e tributárias.",
           socialMedia: {
             icon1: (
@@ -812,7 +820,11 @@ const content = {
             img: teamMemberImg3,
             alt: "Dra. Caroline Valenza - OAB/SC 65.690",
           },
-          name: "Dra. Caroline Valenza - OAB/SC 65.690",
+          name: (
+            <p>
+              Dra. Caroline Valenza <br />- OAB/SC 65.690
+            </p>
+          ),
           role: "Direito criminal e execução criminal.",
           socialMedia: {
             icon1: (
@@ -878,7 +890,11 @@ const content = {
             img: teamMemberImg4,
             alt: "Tiago Henrique Ribeiro de Souza - OAB/MG 196.616",
           },
-          name: "Tiago Henrique Ribeiro de Souza - OAB/MG 196.616",
+          name: (
+            <p>
+              Tiago Henrique Ribeiro de Souza <br />- OAB/MG 196.616
+            </p>
+          ),
           role: "Especialista em Júri e Recursos Especiais",
           socialMedia: {
             icon1: (
