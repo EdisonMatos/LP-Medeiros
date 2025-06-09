@@ -3,7 +3,7 @@ export default function TeamMember(props) {
     props;
 
   return (
-    <div className="flex flex-col items-center justify-between p-[20px] w-full tablet1:w-[45%] desktop1:w-[22%]">
+    <div className="flex flex-col items-center justify-between p-[20px] w-full tablet1:w-[45%] desktop1:w-[22%] text-white">
       <div className="">
         <img
           alt={alt}
@@ -11,9 +11,7 @@ export default function TeamMember(props) {
           className="w-[215px] h-[215px] desktop1:w-[auto] desktop1:h-[auto] mb-[24px] bg-colorBlack rounded-full"
         ></img>
       </div>
-      <h1 className="mb-[8px] text-paragraph5 font-bold text-center">
-        {name}
-      </h1>
+      <h1 className="mb-[8px] text-paragraph5 font-bold text-center">{name}</h1>
       <div className="desktop2:h-[48px] desktop2:mb-[20px] flex justify-center">
         <p className="text-center text-paragraphLight desktop2:mb-[20px] h-[72px] tablet1:w-[90%]">
           {role}

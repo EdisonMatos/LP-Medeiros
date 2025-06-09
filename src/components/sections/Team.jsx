@@ -9,14 +9,14 @@ const whatsappContactLink = `${content.texts.links.ctaWhatsapp}`;
 
 export default function Team() {
   return (
-    <SectionArea className="squares">
+    <SectionArea className="bg-bgSectionDark" paddingtop={false}>
       <SectionHeader
         className="text-center"
         miniTitle={content.texts.team.miniTag}
         sectionHeaderTitle={content.texts.team.title}
         sectionHeaderSubtitle={content.texts.team.subtitle}
-        titleColorSet="text-secondary"
-        subtitleColorSet="text-secondary"
+        titleColorSet="text-white"
+        subtitleColorSet="text-white"
       />
 
       <SectionWrapper className="flex justify-center">
