@@ -14,8 +14,8 @@ import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
 import imgAbout3 from "../assets/imgs/about/aboutImg3.jpg";
 import imgAbout4 from "../assets/imgs/about/aboutImg4.jpg";
 import imgAbout5 from "../assets/imgs/about/aboutImg5.jpg";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
-import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.jpg";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutInstagram from "../assets/imgs/about/imgAboutInstagram.webp";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
@@ -37,10 +37,13 @@ import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4
 
 import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
-import teamMemberImg1 from "../assets/imgs/team/team1.jpg";
-import teamMemberImg2 from "../assets/imgs/team/team2.jpg";
-import teamMemberImg3 from "../assets/imgs/team/team3.jpg";
-import teamMemberImg4 from "../assets/imgs/team/team4.jpg";
+import teamMemberImg1 from "../assets/imgs/team/team1.webp";
+import teamMemberImg2 from "../assets/imgs/team/team2.webp";
+import teamMemberImg3 from "../assets/imgs/team/team3.webp";
+import teamMemberImg4 from "../assets/imgs/team/team4.webp";
+import teamMemberImg5 from "../assets/imgs/team/team5.webp";
+import teamMemberImg6 from "../assets/imgs/team/team6.webp";
+import teamMemberImg7 from "../assets/imgs/team/team7.webp";
 
 import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
 import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
@@ -75,9 +78,10 @@ export const infos = {
   endereco: (
     <div>
       <p>Endereço:</p>
-      <p>Rua princesa Isabel,</p>
-      <p>nº 264, Centro Joinville - SC,</p>
-      <p>CEP 89201-270.</p>
+      <p>Rua Dr Lúcio Correia,</p>
+      <p>nº 30, Guanabara,</p>
+      <p>Joinville - SC,</p>
+      <p>CEP: 89207-700</p>
     </div>
   ),
   enderecoSecundario: (
@@ -678,11 +682,11 @@ const content = {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Dr. Jean Patrick Medeiros - OAB/SC 73.521",
+            alt: "Dr. Jean Patrick Medeiros  OAB/SC 73.521",
           },
           name: (
             <p>
-              Dr. Jean Patrick Medeiros <br />- OAB/SC 73.521
+              Dr. Jean Patrick Medeiros <br /> OAB/SC 73.521
             </p>
           ),
           role: "Sócio fundador e responsável administrativo.",
@@ -748,11 +752,11 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Dr. Lucas Dias de Oliveira - OAB/MG 221.111",
+            alt: "Dr. Lucas Dias de Oliveira  OAB/MG 221.111",
           },
           name: (
             <p>
-              Dr. Lucas Dias de Oliveira <br />- OAB/MG 221.111
+              Dr. Lucas Dias de Oliveira <br /> OAB/MG 221.111
             </p>
           ),
           role: "Demandas cíveis trabalhistas e tributárias.",
@@ -818,14 +822,14 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Dra. Caroline Valenza - OAB/SC 65.690",
+            alt: "Dra. Caroline Valenza  OAB/SC 65.690",
           },
           name: (
             <p>
-              Dra. Caroline Valenza <br />- OAB/SC 65.690
+              Dra. Caroline Valenza <br /> OAB/SC 65.690
             </p>
           ),
-          role: "Direito criminal e execução criminal.",
+          role: "Especialista em processo penal e execução criminal.",
           socialMedia: {
             icon1: (
               <svg
@@ -888,14 +892,197 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Tiago Henrique Ribeiro de Souza - OAB/MG 196.616",
+            alt: "Tiago Henrique Ribeiro de Souza  OAB/MG 196.616",
           },
           name: (
             <p>
-              Tiago Henrique Ribeiro de Souza <br />- OAB/MG 196.616
+              Tiago Henrique Ribeiro de Souza <br /> OAB/MG 196.616
             </p>
           ),
           role: "Especialista em Júri e Recursos Especiais",
+          socialMedia: {
+            icon1: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            ),
+            link1: "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
+            icon2: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-instagram"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            ),
+            link2: "https://www.instagram.com/luizleitedesigner/",
+            icon3: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                fill="black"
+                className=" bi bi-whatsapp"
+                viewBox="0 0 16 16"
+              >
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+              </svg>
+            ),
+            link3: "https://wa.me/+556596241854",
+          },
+        },
+        member5: {
+          img: {
+            img: teamMemberImg5,
+            alt: "Dra Danielle Janning",
+          },
+          name: <p>Dra Danielle Janning</p>,
+          role: "Civilista, mais de 10 anos de experiência, Bilíngue",
+          socialMedia: {
+            icon1: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            ),
+            link1: "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
+            icon2: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-instagram"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            ),
+            link2: "https://www.instagram.com/luizleitedesigner/",
+            icon3: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                fill="black"
+                className=" bi bi-whatsapp"
+                viewBox="0 0 16 16"
+              >
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+              </svg>
+            ),
+            link3: "https://wa.me/+556596241854",
+          },
+        },
+        member6: {
+          img: {
+            img: teamMemberImg6,
+            alt: "Letícia Medeiros",
+          },
+          name: <p>Letícia Medeiros</p>,
+          role: "Gerente Financeira",
+          socialMedia: {
+            icon1: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-linkedin"
+              >
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            ),
+            link1: "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
+            icon2: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-instagram"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            ),
+            link2: "https://www.instagram.com/luizleitedesigner/",
+            icon3: (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="18"
+                fill="black"
+                className=" bi bi-whatsapp"
+                viewBox="0 0 16 16"
+              >
+                <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+              </svg>
+            ),
+            link3: "https://wa.me/+556596241854",
+          },
+        },
+        member7: {
+          img: {
+            img: teamMemberImg7,
+            alt: "Alessandra Gomes",
+          },
+          name: <p>Alessandra Gomes</p>,
+          role: "Administrativo",
           socialMedia: {
             icon1: (
               <svg

@@ -45,8 +45,10 @@ export default function Index() {
         socialPrint={true}
         facebook={true}
       />
+
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
+
       {/* <Maps colorMode={colorMode} /> */}
       <Faq colorMode={colorMode} />
       <FooterSocial
