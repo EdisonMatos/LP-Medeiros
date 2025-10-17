@@ -682,11 +682,11 @@ const content = {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: "Dr. Jean Patrick Medeiros - OAB/SC 73.521",
+            alt: "Dr. Jean Patrick Medeiros  OAB/SC 73.521",
           },
           name: (
             <p>
-              Dr. Jean Patrick Medeiros <br />- OAB/SC 73.521
+              Dr. Jean Patrick Medeiros <br /> OAB/SC 73.521
             </p>
           ),
           role: "Sócio fundador e responsável administrativo.",
@@ -752,11 +752,11 @@ const content = {
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: "Dr. Lucas Dias de Oliveira - OAB/MG 221.111",
+            alt: "Dr. Lucas Dias de Oliveira  OAB/MG 221.111",
           },
           name: (
             <p>
-              Dr. Lucas Dias de Oliveira <br />- OAB/MG 221.111
+              Dr. Lucas Dias de Oliveira <br /> OAB/MG 221.111
             </p>
           ),
           role: "Demandas cíveis trabalhistas e tributárias.",
@@ -822,11 +822,11 @@ const content = {
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: "Dra. Caroline Valenza - OAB/SC 65.690",
+            alt: "Dra. Caroline Valenza  OAB/SC 65.690",
           },
           name: (
             <p>
-              Dra. Caroline Valenza <br />- OAB/SC 65.690
+              Dra. Caroline Valenza <br /> OAB/SC 65.690
             </p>
           ),
           role: "Especialista em processo penal e execução criminal.",
@@ -892,11 +892,11 @@ const content = {
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: "Tiago Henrique Ribeiro de Souza - OAB/MG 196.616",
+            alt: "Tiago Henrique Ribeiro de Souza  OAB/MG 196.616",
           },
           name: (
             <p>
-              Tiago Henrique Ribeiro de Souza <br />- OAB/MG 196.616
+              Tiago Henrique Ribeiro de Souza <br /> OAB/MG 196.616
             </p>
           ),
           role: "Especialista em Júri e Recursos Especiais",
